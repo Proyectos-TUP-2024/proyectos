@@ -51,9 +51,11 @@ Inscripción a materias y visualización de calificaciones.
 Agregar soporte para reportes PDF de calificaciones.
 Mejoras en la seguridad del sistema (cifrado de contraseñas).
 Optimización de consultas SQL.
+
 📌 Notas Adicionales
 Este proyecto fue desarrollado como parte de proyecto final de la Materia de Programacion II, para aprender a gestionar bases de datos y crear aplicaciones con Python.
 Sugerencias y contribuciones son bienvenidas.
+
 👨‍💻 Autor
 Cristian "Andrés" Escudero
 Venado Tuerto, 2024
