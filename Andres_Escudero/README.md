@@ -57,7 +57,5 @@ Este proyecto fue desarrollado como parte de proyecto final de la Materia de Pro
 Sugerencias y contribuciones son bienvenidas.
 
 👨‍💻 Autor
-
 Cristian "Andrés" Escudero
-
 Venado Tuerto, 2024
