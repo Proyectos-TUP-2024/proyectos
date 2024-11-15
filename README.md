@@ -6,15 +6,13 @@ Aquí cada estudiante puede subir su proyecto siguiendo estas instrucciones.
 ---
 
 ## 📂 Estructura del Repositorio
+Todos los proyectos estarán organizados dentro de la carpeta `proyectos/`. Cada estudiante debe crear su propia subcarpeta con el formato:
 proyectos/
 ├── ejemplo_proyecto/
 │   ├── README.md       # Descripción del proyecto
 │   ├── main.py         # Archivo principal del proyecto
 │   └── otros_archivos/ # Subcarpetas o recursos adicionales
 README.md               # Instrucciones principales
-
-Todos los proyectos estarán organizados dentro de la carpeta `proyectos/`. Cada estudiante debe crear su propia subcarpeta con el formato:
-
 ---
 
 ## 🚀 Pasos para Subir Tu Proyecto
