@@ -52,6 +52,7 @@ README.md               # Instrucciones principales
 No modifiques ni borres archivos de otros compañeros.
 Usa una carpeta única con tu nombre para tu proyecto.
 Incluye un archivo README.md dentro de tu carpeta con información básica de tu proyecto.
+
   💡 Recomendaciones
 Si no sabes usar Git, sigue la Opción 1 usando la interfaz web.
 Si tienes dudas, consulta con el administrador del repositorio.
