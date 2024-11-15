@@ -14,10 +14,8 @@ proyectos/
 
 │   ├── main.py         # Archivo principal del proyecto
 
-│   └── otros_archivos/ # Subcarpetas o recursos adicionales
+│   └── otros_archivos/ # Subcarpetas o recursos 
 
-README.md               # Instrucciones principales
----
 
 ## 🚀 Pasos para Subir Tu Proyecto
 
