@@ -9,10 +9,12 @@ Un **CRUD (Crear, Leer, Actualizar, Eliminar)** diseñado para gestionar alumnos
 - **Gestión de Alumnos**: 
   - Registro de alumnos con nombre, apellido, materia y calificaciones.
   - Visualización, actualización y eliminación de registros.
+  - Mensaje a Profesores por medio de la interface integrado a la BDD.
 
 - **Gestión de Profesores**:
   - Registro de profesores con asignación de materias.
   - Listado de los alumnos inscritos en la materia asignada.
+  - Mensaje a Alumnos por medio de la interface integrado a la BDD.
 
 - **Materias y Calificaciones**:
   - Inscripción de alumnos a materias.
