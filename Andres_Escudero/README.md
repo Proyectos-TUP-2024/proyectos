@@ -45,8 +45,10 @@ Funcionalidades principales:
 
 Admin:
 Gestión completa de alumnos, profesores y materias.
+
 Profesor:
 Visualización de los alumnos inscritos en su materia.
+
 Alumno:
 Inscripción a materias y visualización de calificaciones.
 
