@@ -1,0 +1,127 @@
+/* Fondo general y fuente */
+QWidget {
+    background-color: #f3f6f9; /* Color de fondo neutro y profesional */
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 12px;
+    color: #333333;
+}
+
+/* Botones generales */
+QPushButton {
+    background-color: #3a6ea5; /* Azul sobrio */
+    color: white;
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    border: none;
+}
+QPushButton:hover {
+    background-color: #315b87; /* Más oscuro al pasar el cursor */
+}
+QPushButton:pressed {
+    background-color: #2a4d6e; /* Aún más oscuro al hacer clic */
+}
+
+/* Botones de esquina */
+QPushButton#btn_inscripcion {
+    background-color: #377ab7;
+    padding: 8px 12px;
+}
+QPushButton#btn_inscripcion:hover {
+    background-color: #2f6aa0;
+}
+QPushButton#btn_regresar {
+    background-color: #d9534f; /* Rojo sobrio */
+    padding: 8px 12px;
+}
+QPushButton#btn_regresar:hover {
+    background-color: #c9302c;
+}
+
+/* Títulos de las pestañas */
+QTabWidget::pane {
+    border: 1px solid #dcdcdc;
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 5px;
+}
+QTabBar::tab {
+    background: #3a6ea5; /* Azul sobrio */
+    color: white;
+    padding: 8px 15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-size: 13px;
+    min-width: 100px;
+}
+QTabBar::tab:hover {
+    background: #315b87;
+}
+QTabBar::tab:selected {
+    background: #2a4d6e;
+    font-weight: bold;
+}
+
+/* Etiquetas y campos de texto */
+QLabel {
+    font-weight: bold;
+    color: #333333;
+}
+QTextEdit, QLineEdit {
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 12px;
+}
+QTextEdit:focus, QLineEdit:focus {
+    border: 1px solid #3a6ea5;
+}
+
+/* QTreeWidget y elementos */
+QTreeWidget {
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+QTreeWidget::item {
+    padding: 8px;
+    border-bottom: 1px solid #e0e0e0;
+}
+QTreeWidget::item:selected {
+    background-color: #d1e4f3;
+    color: #333333;
+}
+
+/* QCalendarWidget */
+QCalendarWidget QWidget {
+    background-color: #ffffff;
+}
+QCalendarWidget QWidget#qt_calendar_navigationbar {
+    background-color: #3a6ea5;
+    color: white;
+    border-radius: 5px;
+}
+QCalendarWidget QToolButton {
+    color: white;
+    font-size: 12px;
+    padding: 4px;
+}
+QCalendarWidget QToolButton:hover {
+    background-color: #2f5b87;
+}
+
+/* Mensajería y notificaciones */
+QTextEdit#nuevo_mensaje, QTextEdit#mensajes_recibidos {
+    background-color: #f5f5f5;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 12px;
+}
+QTextEdit#mensajes_recibidos {
+    background-color: #f8f8f8;
+    color: #555555;
+    padding: 10px;
+}

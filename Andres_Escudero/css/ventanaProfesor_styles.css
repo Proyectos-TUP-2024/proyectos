@@ -1,0 +1,92 @@
+/* Estilo general para la ventana */
+QMainWindow {
+    background-color: #f4f6f9; /* Fondo gris claro */
+}
+
+/* Títulos y etiquetas */
+QLabel {
+    font-size: 14px;
+    font-weight: bold;
+    color: #2c3e50; /* Azul oscuro */
+    margin: 4px 0;
+}
+
+/* Cuadros de entrada */
+QLineEdit {
+    padding: 6px;
+    font-size: 13px;
+    border: 1px solid #bdc3c7; /* Gris claro */
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+QLineEdit:focus {
+    border: 1px solid #3498db; /* Azul claro al enfocar */
+}
+
+/* Botones */
+QPushButton {
+    background-color: #2980b9; /* Azul oscuro */
+    color: white;
+    padding: 8px 12px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #1f618d; /* Azul intermedio */
+}
+
+QPushButton:pressed {
+    background-color: #1b4f72; /* Azul más oscuro */
+}
+
+/* Tabs (pestañas) */
+QTabWidget::pane {
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+}
+
+QTabBar::tab {
+    padding: 8px;
+    background: #ecf0f1; /* Gris claro */
+    border: 1px solid #bdc3c7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 13px;
+    color: #2c3e50; /* Azul oscuro */
+}
+
+QTabBar::tab:selected {
+    background: #2980b9; /* Azul oscuro */
+    color: white;
+}
+
+/* QTreeWidget (lista de alumnos) */
+QTreeWidget {
+    background-color: #ffffff;
+    border: 1px solid #bdc3c7;
+    font-size: 13px;
+}
+
+QTreeWidget::item {
+    padding: 4px;
+}
+
+QHeaderView::section {
+    background-color: #2980b9; /* Azul oscuro */
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #bdc3c7;
+}
+
+/* QTextEdit (mensajes recibidos) */
+QTextEdit {
+    background-color: #ffffff;
+    border: 1px solid #bdc3c7;
+    padding: 6px;
+    font-size: 13px;
+}

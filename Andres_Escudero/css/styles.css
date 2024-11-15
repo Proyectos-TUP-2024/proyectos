@@ -1,0 +1,284 @@
+.QPushButton {
+    background-color: #1E90FF;
+    color: white;
+    border: 2px solid #1C6EA4;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+.QPushButton:hover {
+    background-color: #63B8FF;
+}
+
+.QLineEdit {
+    border: 1px solid #1C6EA4;
+    border-radius: 4px;
+    padding: 5px;
+}
+.QPushButton#btnAtras {
+    background-color: #f8312f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px;
+}
+.QPushButton#btnAtras:hover{
+    background-color: #f13a59;
+}
+
+/* Fondo de la ventana de login */
+.ventana-login {
+    background-color: #15224b;
+    border: 1px solid #c3cfe0;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Etiquetas de usuario y contraseña */
+.login-label {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* Campos de texto para usuario y contraseña */
+.campo-texto {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+/* Botón de ingresar */
+.boton-ingresar {
+    background-color: #4C9AFF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-ingresar:hover {
+    background-color: #357ABD;
+}
+
+/* Estilo de error (puede activarse desde Python en caso de ingreso fallido) */
+.mensaje-error {
+    color: #ff4d4d;
+    font-size: 14px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #ffe6e6;
+    border-radius: 4px;
+    text-align: center;
+}
+/* Fondo de la ventana VentanaProfesor */
+.VentanaProfesor {
+    background-color: #f0f4f8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Botones en VentanaProfesor */
+.QPushButton#btnNuevo, .QPushButton#btnModificar, .QPushButton#btnNotificar {
+    background-color: #28a745;
+    color: white;
+    border: 2px solid #218838;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-weight: bold;
+}
+
+.QPushButton#btnNuevo:hover, .QPushButton#btnModificar:hover, .QPushButton#btnNotificar:hover {
+    background-color: #218838;
+}
+
+/* Botón Atras en VentanaProfesor */
+.QPushButton#btnAtras {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-weight: bold;
+}
+
+.QPushButton#btnAtras:hover {
+    background-color: #c82333;
+}
+
+/* Campos de entrada en VentanaProfesor */
+.QLineEdit {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+/* Títulos y etiquetas */
+.QLabel {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Estilo para el QTreeWidget en VentanaProfesor */
+.QTreeWidget {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.QTreeWidget::item {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.QTreeWidget::item:selected {
+    background-color: #1E90FF;
+    color: white;
+}
+
+/* Ajuste de scrollbars */
+.QScrollBar:vertical {
+    background: #f0f4f8;
+    width: 10px;
+    margin: 15px 3px 15px 3px;
+    border-radius: 4px;
+}
+
+.QScrollBar::handle:vertical {
+    background: #1E90FF;
+    min-height: 5px;
+    border-radius: 4px;
+}
+
+.QScrollBar::handle:vertical:hover {
+    background: #63B8FF;
+}
+/* Estilos específicos para VentanaRegistro */
+#VentanaRegistro {
+    background-color: #f7f9fc;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+#VentanaRegistro QLabel {
+    font-size: 14px;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+#VentanaRegistro#QLineEdit, 
+#VentanaRegistro#QComboBox, 
+#VentanaRegistro#QDateEdit {
+    background-color: #ffffff;
+    border: 1px solid #dcdfe6;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+#VentanaRegistro#QPushButton {
+    background-color: #3a8dff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#VentanaRegistro#QPushButton:hover {
+    background-color: #2d76d9;
+}
+
+#VentanaRegistro#QPushButton:pressed {
+    background-color: #2a65c3;
+}
+
+/* Estilo general de la ventana de inscripción */
+#QDialog#ventanaInscripcion {
+    background-color: #f7f9fc;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* Estilo para el QComboBox (selector de materias) en VentanaInscripcion */
+#QComboBox.comboMaterias {
+    background-color: #ffffff;
+    border: 1px solid #d1dce5;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+    color: #333333;
+}
+#QComboBox.comboMaterias::drop-down {
+    border-left: 1px solid #d1dce5;
+}
+#QComboBox.comboMaterias QAbstractItemView {
+    background-color: #ffffff;
+}
+#QComboBox#QAbstractItemView::item {
+    color: #333333;
+    background-color: #ffffff;
+}
+#QComboBox#QAbstractItemView::item:selected {
+    background-color: #006aff;  /* Color de fondo para el elemento seleccionado */
+    color: #ffffff;  /* Color de texto para el elemento seleccionado */
+}
+
+/* Estilo para QDateEdit (selector de fecha) en VentanaInscripcion */
+#QDateEdit.fechaInscripcion {
+    background-color: #ffffff;
+    border: 1px solid #d1dce5;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+    color: #333333;
+}
+#QDateEdit.fechaInscripcion::drop-down {
+    border-left: 1px solid #d1dce5;
+}
+
+/* Estilo para QPushButton (botón de inscripción) en VentanaInscripcion */
+#QPushButton.btnInscribir {
+    background-color: #006aff;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#QPushButton.btnInscribir:hover {
+    background-color: #0056d2;
+}
+#QPushButton.btnInscribir:pressed {
+    background-color: #004bb5;
+}
+
+/* Mensajes de información (QMessageBox) específicos para VentanaInscripcion */
+#QMessageBox#QLabel {
+    color: #333333;
+    font-size: 14px;
+}
+#QMessageBox#QPushButton {
+    background-color: #006aff;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+#QMessageBox#QPushButton:hover {
+    background-color: #0056d2;
+}
+

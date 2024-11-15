@@ -1,0 +1,44 @@
+/* Ajustes generales para la ventana */
+QMainWindow {
+    background-color: #062646;
+}
+
+/* Botones */
+QPushButton {
+    background-color: #4d6781;  /* Gris oscuro */
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #1d2124;  /* Bordes más oscuros */
+}
+
+QPushButton:hover {
+    background-color: #495057;  /* Gris intermedio al pasar el cursor */
+}
+
+QPushButton:pressed {
+    background-color: #212529;  /* Gris aún más oscuro cuando se presiona */
+    border: 1px solid #1d2124;
+}
+
+/* Estilo para la tabla */
+QTableWidget {
+    background-color: white;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+QTableWidget::item {
+    padding: 5px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+QHeaderView::section {
+    background-color: #343a40;  /* Encabezado en gris oscuro */
+    color: white;
+    padding: 5px;
+    border: 1px solid #444444;  /* Bordes más oscuros en encabezado */
+    font-weight: bold;
+    font-size: 14px;
+}
