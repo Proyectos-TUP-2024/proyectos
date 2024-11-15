@@ -1,4 +1,4 @@
-# Repositorio de Proyectos Finales del Curso
+# Repositorio de Proyectos Finales de la Tecnicatura de Programación 
 
 ¡Bienvenidos al repositorio de proyectos finales del curso! 🎓  
 Aquí cada estudiante puede subir su proyecto siguiendo estas instrucciones.
