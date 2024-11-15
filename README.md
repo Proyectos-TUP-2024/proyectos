@@ -1,61 +1,55 @@
-# Gestor de Alumnos y Profesores
+# Repositorio de Proyectos Finales del Curso
 
-Un **CRUD (Crear, Leer, Actualizar, Eliminar)** diseñado para gestionar alumnos, profesores y materias, desarrollado en **Python** usando **PyQt6** para la interfaz gráfica e integrado con **MySQL** como base de datos.
-
----
-
-## 🛠️ Características
-
-- **Gestión de Alumnos**: 
-  - Registro de alumnos con nombre, apellido, materia y calificaciones.
-  - Visualización, actualización y eliminación de registros.
-
-- **Gestión de Profesores**:
-  - Registro de profesores con asignación de materias.
-  - Listado de los alumnos inscritos en la materia asignada.
-
-- **Materias y Calificaciones**:
-  - Inscripción de alumnos a materias.
-  - Visualización de calificaciones.
-
-- **Roles de Usuario**:
-  - Diferenciación entre roles de `admin`, `profesor` y `alumno`, con funcionalidades específicas para cada uno.
+¡Bienvenidos al repositorio de proyectos finales del curso! 🎓  
+Aquí cada estudiante puede subir su proyecto siguiendo estas instrucciones.
 
 ---
 
-## 🚀 Tecnologías Utilizadas
+## 📂 Estructura del Repositorio
+Todos los proyectos estarán organizados dentro de la carpeta `proyectos/`. Cada estudiante debe crear su propia subcarpeta con el formato:
+proyectos/
+├── ejemplo_proyecto/
+│   ├── README.md       # Descripción del proyecto
+│   ├── main.py         # Archivo principal del proyecto
+│   └── otros_archivos/ # Subcarpetas o recursos adicionales
+README.md               # Instrucciones principales
+---
 
-- **Lenguaje**: Python
-- **Interfaz Gráfica**: PyQt6
-- **Base de Datos**: MySQL
-- **Estilos**: CSS (para personalizar la apariencia de PyQt6)
-- **Módulos adicionales**:
-  - `PyQt6`
-  - `mysql-connector-python` (o similar para conectar con MySQL)
+## 🚀 Pasos para Subir Tu Proyecto
+
+### Opción 1: Usando la Interfaz Web de GitHub
+1. Haz clic en **`proyectos/`**.
+2. Crea tu carpeta:
+   - Haz clic en **"Add file"** > **"Create new file"**.
+   - Escribe el nombre de tu carpeta seguido de `/README.md`. Por ejemplo:
+     ```
+     proyectos/Andres_Escudero/README.md
+     ```
+   - Esto creará tu carpeta automáticamente.
+3. Agrega un título o descripción en el `README.md` y guarda los cambios.
+4. Sube tus archivos:
+   - Haz clic en **"Upload files"** dentro de tu carpeta.
+   - Arrastra y suelta tus archivos, luego haz clic en **"Commit changes"**.
 
 ---
-🌟 Uso de la Aplicación
-Inicio de sesión:
 
-Los usuarios deben ingresar sus credenciales y rol (admin, profesor, alumno).
-El sistema muestra la ventana correspondiente según el rol.
-Funcionalidades principales:
-
-Admin:
-Gestión completa de alumnos, profesores y materias.
-Profesor:
-Visualización de los alumnos inscritos en su materia.
-Alumno:
-Inscripción a materias y visualización de calificaciones.
-📝 Próximas Mejoras
-Agregar soporte para reportes PDF de calificaciones.
-Mejoras en la seguridad del sistema (cifrado de contraseñas).
-Optimización de consultas SQL.
-📌 Notas Adicionales
-Este proyecto fue desarrollado como parte de proyecto final de la Materia de Programacion II, para aprender a gestionar bases de datos y crear aplicaciones con Python.
-Sugerencias y contribuciones son bienvenidas.
-👨‍💻 Autor
-Cristian "Andrés" Escudero
-Venado Tuerto, 2024
+### Opción 2: Usando Git en tu Computadora
+1. Clona el repositorio:
+   ```bash
+   git clone <URL_DEL_REPOSITORIO>
+2. Crea tu carpeta dentro de proyectos/
+3. Agrega tus archivos dentro de esa carpeta.
+4. Guarda los cambios y súbelos:
+   git add .
+   git commit -m "Subiendo proyecto de NOMBRE APELLIDO"
+   git push origin main
+   
+  🌟 Reglas de Contribución
+No modifiques ni borres archivos de otros compañeros.
+Usa una carpeta única con tu nombre para tu proyecto.
+Incluye un archivo README.md dentro de tu carpeta con información básica de tu proyecto.
+  💡 Recomendaciones
+Si no sabes usar Git, sigue la Opción 1 usando la interfaz web.
+Si tienes dudas, consulta con el administrador del repositorio.
 
 
